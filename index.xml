@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>时雨の随想</title>
+    <link>https://aimonkey.cc/</link>
+    <description>Recent content on 时雨の随想</description>
+    <generator>Hugo -- 0.148.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 11 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://aimonkey.cc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test Push</title>
+      <link>https://aimonkey.cc/translations/test-push/</link>
+      <pubDate>Mon, 11 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://aimonkey.cc/translations/test-push/</guid>
+      <description>这是一篇测试文章，用于验证GitHub推送功能是否正常工作</description>
+    </item>
+    <item>
+      <title>Hello World</title>
+      <link>https://aimonkey.cc/posts/hello-world/</link>
+      <pubDate>Fri, 08 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://aimonkey.cc/posts/hello-world/</guid>
+      <description>&lt;p&gt;欢迎来到我的博客！&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
