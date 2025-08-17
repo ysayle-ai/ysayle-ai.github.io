@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="zh" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>深度解读：与 Sam Altman 的“时间旅行”对话——GPT-5、未来社会及我们的机遇 | 时雨の随想</title>
+<meta name="keywords" content="AI, GPT-5, Sam Altman, OpenAI, 未来科技, 深度解读">
+<meta name="description" content="视频信息
+
+标题: Sam Altman Shows Me GPT 5&hellip; And What&rsquo;s Next
+作者/主持人: Cleo Abram
+受访者: Sam Altman (OpenAI CEO)
+
+
+开篇引入
+想象一下，如果能与一位正在塑造未来的人进行一次“时间旅行式”的对话，提前窥见几年后即将到来的世界，那会是怎样一种体验？这正是本期视频的核心价值。主持人 Cleo Abram 与 OpenAI 的 CEO Sam Altman 展开了一场深度访谈，其目的远不止于技术揭秘，而是旨在深入探讨 Sam Altman 和他的团队正在构建的未来，并帮助我们每一个人理解即将发生的巨变，从而更好地参与到未来的建设中。这不仅是一次关于 GPT-5 的前瞻，更是一次关于人类社会如何与指数级发展的 AI 共同演进的哲学思考。">
+<meta name="author" content="时雨">
+<link rel="canonical" href="https://aimonkey.cc/translations/250817/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.css" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://aimonkey.cc/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://aimonkey.cc/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://aimonkey.cc/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://aimonkey.cc/apple-touch-icon.png">
+<link rel="mask-icon" href="https://aimonkey.cc/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="zh" href="https://aimonkey.cc/translations/250817/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+<script defer src="https://aimonkey.cc/js/font-loader.js"></script>
+
+
+<link rel="preconnect" href="https://cdn.jsdelivr.net">
+<link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.1.0/style.css">
+
+
+<style>
+     
+    .font-loading {
+        font-display: swap;
+    }
+    
+     
+    body {
+        transition: font-family 0.3s ease;
+    }
+</style>
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    const themeToggle = document.getElementById("theme-toggle-menu");
+    const moonIcon = document.getElementById("moon-menu");
+    const sunIcon = document.getElementById("sun-menu");
+    
+    if (themeToggle && moonIcon && sunIcon) {
+        
+        function updateIcon() {
+            const isDark = document.body.className.includes("dark");
+            if (isDark) {
+                moonIcon.style.display = "none";
+                sunIcon.style.display = "block";
+            } else {
+                moonIcon.style.display = "block";
+                sunIcon.style.display = "none";
+            }
+        }
+        
+        updateIcon();
+        
+        
+        const observer = new MutationObserver(updateIcon);
+        observer.observe(document.body, { attributes: true, attributeFilter: ["class"] });
+        
+        
+        themeToggle.addEventListener("click", function() {
+            if (document.body.className.includes("dark")) {
+                document.body.classList.remove("dark");
+                localStorage.setItem("pref-theme", "light");
+            } else {
+                document.body.classList.add("dark");
+                localStorage.setItem("pref-theme", "dark");
+            }
+        });
+    }
+});
+</script>
+<meta property="og:url" content="https://aimonkey.cc/translations/250817/">
+  <meta property="og:site_name" content="时雨の随想">
+  <meta property="og:title" content="深度解读：与 Sam Altman 的“时间旅行”对话——GPT-5、未来社会及我们的机遇">
+  <meta property="og:description" content="视频信息 标题: Sam Altman Shows Me GPT 5… And What’s Next 作者/主持人: Cleo Abram 受访者: Sam Altman (OpenAI CEO) 开篇引入 想象一下，如果能与一位正在塑造未来的人进行一次“时间旅行式”的对话，提前窥见几年后即将到来的世界，那会是怎样一种体验？这正是本期视频的核心价值。主持人 Cleo Abram 与 OpenAI 的 CEO Sam Altman 展开了一场深度访谈，其目的远不止于技术揭秘，而是旨在深入探讨 Sam Altman 和他的团队正在构建的未来，并帮助我们每一个人理解即将发生的巨变，从而更好地参与到未来的建设中。这不仅是一次关于 GPT-5 的前瞻，更是一次关于人类社会如何与指数级发展的 AI 共同演进的哲学思考。">
+  <meta property="og:locale" content="zh-cn">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="translations">
+    <meta property="article:published_time" content="2025-08-17T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-08-17T00:00:00+00:00">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="深度解读：与 Sam Altman 的“时间旅行”对话——GPT-5、未来社会及我们的机遇">
+<meta name="twitter:description" content="视频信息
+
+标题: Sam Altman Shows Me GPT 5&hellip; And What&rsquo;s Next
+作者/主持人: Cleo Abram
+受访者: Sam Altman (OpenAI CEO)
+
+
+开篇引入
+想象一下，如果能与一位正在塑造未来的人进行一次“时间旅行式”的对话，提前窥见几年后即将到来的世界，那会是怎样一种体验？这正是本期视频的核心价值。主持人 Cleo Abram 与 OpenAI 的 CEO Sam Altman 展开了一场深度访谈，其目的远不止于技术揭秘，而是旨在深入探讨 Sam Altman 和他的团队正在构建的未来，并帮助我们每一个人理解即将发生的巨变，从而更好地参与到未来的建设中。这不仅是一次关于 GPT-5 的前瞻，更是一次关于人类社会如何与指数级发展的 AI 共同演进的哲学思考。">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Translations",
+      "item": "https://aimonkey.cc/translations/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "深度解读：与 Sam Altman 的“时间旅行”对话——GPT-5、未来社会及我们的机遇",
+      "item": "https://aimonkey.cc/translations/250817/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "深度解读：与 Sam Altman 的“时间旅行”对话——GPT-5、未来社会及我们的机遇",
+  "name": "深度解读：与 Sam Altman 的“时间旅行”对话——GPT-5、未来社会及我们的机遇",
+  "description": "视频信息 标题: Sam Altman Shows Me GPT 5\u0026hellip; And What\u0026rsquo;s Next 作者/主持人: Cleo Abram 受访者: Sam Altman (OpenAI CEO) 开篇引入 想象一下，如果能与一位正在塑造未来的人进行一次“时间旅行式”的对话，提前窥见几年后即将到来的世界，那会是怎样一种体验？这正是本期视频的核心价值。主持人 Cleo Abram 与 OpenAI 的 CEO Sam Altman 展开了一场深度访谈，其目的远不止于技术揭秘，而是旨在深入探讨 Sam Altman 和他的团队正在构建的未来，并帮助我们每一个人理解即将发生的巨变，从而更好地参与到未来的建设中。这不仅是一次关于 GPT-5 的前瞻，更是一次关于人类社会如何与指数级发展的 AI 共同演进的哲学思考。\n",
+  "keywords": [
+    "AI", "GPT-5", "Sam Altman", "OpenAI", "未来科技", "深度解读"
+  ],
+  "articleBody": "视频信息 标题: Sam Altman Shows Me GPT 5… And What’s Next 作者/主持人: Cleo Abram 受访者: Sam Altman (OpenAI CEO) 开篇引入 想象一下，如果能与一位正在塑造未来的人进行一次“时间旅行式”的对话，提前窥见几年后即将到来的世界，那会是怎样一种体验？这正是本期视频的核心价值。主持人 Cleo Abram 与 OpenAI 的 CEO Sam Altman 展开了一场深度访谈，其目的远不止于技术揭秘，而是旨在深入探讨 Sam Altman 和他的团队正在构建的未来，并帮助我们每一个人理解即将发生的巨变，从而更好地参与到未来的建设中。这不仅是一次关于 GPT-5 的前瞻，更是一次关于人类社会如何与指数级发展的 AI 共同演进的哲学思考。\n详细内容 1. GPT-5：从“最笨的模型”到“令人难以置信” 核心观点\nGPT-5 将在性能上实现巨大飞跃，尤其在高质量科学问题解答和软件编写方面表现突出，尽管它在未来也仅仅是通往超级智能道路上的一个“笨拙”的起点。\n深度阐述 Sam Altman 坦言，尽管 GPT-4 在多项标准化测试中已经超越了90%的人类，但当我们回望时，会发现它其实是“迄今为止最笨的模型”。这番话的背后，是对技术进步速度的敬畏。他认为，这种技术迭代的速度在人类历史上是前所未有的。\nGPT-5 的具体能力体现在何处？\n高质量的科学解答：Sam 首次强调，GPT-5 能够对复杂的科学技术问题提供高质量的答案，这是之前模型难以企及的。 闪电般的软件开发：为了生动展示这一点，Sam 分享了一个个人经历。他初中时曾花费大量“极其痛苦”的时间，在 TI-83 图形计算器上编写一个“贪吃蛇”游戏。而 GPT-5，仅用 7 秒钟，就能根据文本指令完美地生成一个功能齐全的 TI-83 风格的“贪吃蛇”，并能实时修改。这种将想法瞬间变为现实的能力，让他对未来感到“非常兴奋”。 写作质量提升：模型的写作能力也得到增强，输出的文本感觉更加自然流畅。 然而，Sam 也清醒地认识到，即便强大如 GPT-5，也存在局限性，无法完全复制人类的所有能力，尤其是在需要长期认知努力的任务上。\n2. AI 对就业与社会的深远影响 核心观点\nAI 将淘汰某些入门级白领工作，但同时会催生新的、更具创造性的就业机会。对于年轻人而言，这是一个前所未有的创业和创新的黄金时代。\n深度阐述 关于“AI 是否会取代人类工作”的焦虑，Sam Altman 给出了他的看法。他承认，一些工作类别会完全消失，但这在技术发展史上屡见不鲜。他更担心的是那些不愿意重新学习和适应的年长劳动者。\n但他对未来整体持乐观态度，尤其是对年轻人。他动情地说：“如果我现在 22 岁，即将大学毕业，我会觉得自己是‘历史上最幸运的孩子’”。他认为，AI 工具将极大地赋能个体，让一个人或一个小团队能够完成过去需要数百人才能完成的工作。这将是创造新事物、发明新产品、开创新公司的最佳时机。\n3. 构建 AI 未来的四大限制因素 核心观点\nAI 的发展并非畅通无阻，它受到计算能力、数据、算法设计和产品构建这四个关键因素的制约。\n深度阐述 Sam Altman 指出，推动 AI 向前发展面临着四个巨大的挑战：\n计算能力 (Compute)：这是目前最大的瓶颈，堪称“最大的基础设施项目”。它受到能源供应、处理芯片和内存芯片产量的限制。Sam 预计这将是他未来工作的重心。 数据 (Data)：随着模型越来越强大，它们不能只学习已有的知识，而需要去“发现新事物”，即学习数据集中尚不存在的知识，像人类科学家一样提出假设并进行实验。 算法设计 (Algorithmic Design)：持续的算法突破至关重要。Sam 举例，OpenAI 在这方面取得了巨大进展，例如开发出了 GPOSS 模型，它能让 GPT-4 级别的智能在笔记本电脑上本地运行。 产品构建 (Products to Build)：将前沿的科学技术转化为对社会有用的实际产品，是连接技术与人类福祉的关键一步。 4. AI 重塑科学、健康与“真理” 核心观点\nAI 将加速科学发现的进程，有望在未来十年内攻克许多重大疾病。同时，随着 AI 生成内容的普及，社会对“真理”和“现实”的定义也将被重塑。\n深度阐述\n加速科学发现：Sam 预测，到 2027 年底，AI 将推动重大的新科学发现。他设想到 2035 年，AI 能治愈或至少有效治疗许多困扰人类的疾病。他描绘了一个未来的 GPT 模型（可能是 GPT-8）能够自主进行科学研究的场景：它能提出实验方案，指导实验室技术员操作，分析结果，并最终发现治疗癌症的新分子。 “真理”与“事实”的界定：Sam 同意英伟达 CEO 黄仁勋的观点，即事实是客观的，而真理是主观的，取决于文化、价值观和语境。他指出 AI 在适应不同文化和个体方面表现出色。例如，ChatGPT 的“增强记忆”功能，能够了解用户的个人经历和背景，从而提供更个性化的互动。 模糊的现实边界：视频中讨论了由 AI 生成的病毒视频（如“兔子跳蹦床”），并提出了一个深刻的问题：到 2030 年，我们如何辨别信息的真伪？Sam 认为，媒体“真实性”的门槛会不断变化，人们将逐渐接受媒体中“既真实又不真实”的部分，就像我们现在接受手机照片都经过了 AI 处理一样。社会需要适应这种不断变化的媒体性质。 个人感受：Sam Altman 的思考与情感 在访谈中，Sam Altman 多次分享了他的个人经历和感悟，展现了这位技术领袖的人文色彩。\n对技术进步的惊叹与兴奋：他回忆起 GPT-5 在 7 秒内完成他儿时耗费巨大心血才完成的游戏时，那种震撼感让他对未来充满了兴奋与期待。 对个体用户的关怀与反思：他提到了一个让他感到“疯狂”和“难过”的时刻。当 OpenAI 调整模型，使其不那么“奉承”时，一些用户反馈说感觉失去了生活中唯一的支持者。这让他深刻反思，AI 对个体的情感影响远超预期，也让他意识到技术背后所承载的巨大责任和权力。 投身 AI 的初心：他从小就是个“AI 迷”，坚信 AI 是“最重要的事情”。当他看到 AI 技术真正开始奏效时，便义无反顾地投身其中，因为那“太不可思议了”。 延伸思考 这次对话引发了几个值得我们深思的问题：\n教育的未来：当 AI 能够瞬间完成复杂的编程任务和知识问答时，我们应该如何重新定义学习的目标？是应该更注重提出好问题的能力，还是培养与 AI 协作创新的能力？ 权力的分配：Sam Altman 提到，单个研究员对模型的微调就能影响数十亿人。如此巨大的权力应该如何被监管和制衡，以确保其服务于全人类的利益？ 人类的适应力：Sam 相信人类具有惊人的适应能力。但在变化速度远超以往任何时代的情况下，社会、法律和伦理体系能否及时跟上，避免出现巨大的社会裂痕？ 精华收获 这次访谈为我们描绘了一幅既充满希望又充满挑战的未来图景。以下是最核心的收获：\n拥抱工具：AI 是一个强大的“工具树”。我们每个人都应该积极学习和使用它，熟悉它的能力，为即将到来的变革做好准备。 关注创造：AI 将自动化许多重复性工作，从而将人类解放出来，专注于更具创造性、战略性和情感共鸣的任务。 保持乐观与警惕：未来是光明的，AI 有潜力解决癌症、能源等人类面临的重大问题。但同时，我们也必须对 AI 带来的社会、伦理和安全风险保持高度警惕，并进行深入的公共讨论。 共同建设：AI 的未来不是由少数几家公司决定的，而是取决于全社会如何在其基础上进行构建和创新。我们都是这场变革的参与者和建设者。 ",
+  "wordCount" : "2758",
+  "inLanguage": "zh",
+  "datePublished": "2025-08-17T00:00:00Z",
+  "dateModified": "2025-08-17T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "时雨"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://aimonkey.cc/translations/250817/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "时雨の随想",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://aimonkey.cc/"
+    }
+  }
+}
+</script>
+
+</head>
+
+<body class=" has-toolbar" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://aimonkey.cc/" accesskey="h" title="时雨の随想 (Alt + H)">时雨の随想</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://aimonkey.cc/" title="Home">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://aimonkey.cc/posts/" title="Thoughts">
+                    <span>Thoughts</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://aimonkey.cc/translations/" title="Translations">
+                    <span>Translations</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://aimonkey.cc/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+            
+            
+            <li class="theme-toggle-menu">
+                <button id="theme-toggle-menu" aria-label="Toggle theme" title="Toggle theme">
+                    <svg id="moon-menu" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun-menu" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="18.36"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      深度解读：与 Sam Altman 的“时间旅行”对话——GPT-5、未来社会及我们的机遇
+    </h1>
+    <div class="post-meta"><span title='2025-08-17 00:00:00 +0000 UTC'>2025-08-17</span>&nbsp;·&nbsp;6 分钟&nbsp;·&nbsp;2758 字&nbsp;·&nbsp;时雨
+
+</div>
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">目录</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#%e8%a7%86%e9%a2%91%e4%bf%a1%e6%81%af" aria-label="视频信息">视频信息</a></li>
+                <li>
+                    <a href="#%e5%bc%80%e7%af%87%e5%bc%95%e5%85%a5" aria-label="开篇引入">开篇引入</a></li>
+                <li>
+                    <a href="#%e8%af%a6%e7%bb%86%e5%86%85%e5%ae%b9" aria-label="详细内容">详细内容</a><ul>
+                        
+                <li>
+                    <a href="#1-gpt-5%e4%bb%8e%e6%9c%80%e7%ac%a8%e7%9a%84%e6%a8%a1%e5%9e%8b%e5%88%b0%e4%bb%a4%e4%ba%ba%e9%9a%be%e4%bb%a5%e7%bd%ae%e4%bf%a1" aria-label="1. GPT-5：从“最笨的模型”到“令人难以置信”">1. GPT-5：从“最笨的模型”到“令人难以置信”</a></li>
+                <li>
+                    <a href="#2-ai-%e5%af%b9%e5%b0%b1%e4%b8%9a%e4%b8%8e%e7%a4%be%e4%bc%9a%e7%9a%84%e6%b7%b1%e8%bf%9c%e5%bd%b1%e5%93%8d" aria-label="2. AI 对就业与社会的深远影响">2. AI 对就业与社会的深远影响</a></li>
+                <li>
+                    <a href="#3-%e6%9e%84%e5%bb%ba-ai-%e6%9c%aa%e6%9d%a5%e7%9a%84%e5%9b%9b%e5%a4%a7%e9%99%90%e5%88%b6%e5%9b%a0%e7%b4%a0" aria-label="3. 构建 AI 未来的四大限制因素">3. 构建 AI 未来的四大限制因素</a></li>
+                <li>
+                    <a href="#4-ai-%e9%87%8d%e5%a1%91%e7%a7%91%e5%ad%a6%e5%81%a5%e5%ba%b7%e4%b8%8e%e7%9c%9f%e7%90%86" aria-label="4. AI 重塑科学、健康与“真理”">4. AI 重塑科学、健康与“真理”</a></li></ul>
+                </li>
+                <li>
+                    <a href="#%e4%b8%aa%e4%ba%ba%e6%84%9f%e5%8f%97sam-altman-%e7%9a%84%e6%80%9d%e8%80%83%e4%b8%8e%e6%83%85%e6%84%9f" aria-label="个人感受：Sam Altman 的思考与情感">个人感受：Sam Altman 的思考与情感</a></li>
+                <li>
+                    <a href="#%e5%bb%b6%e4%bc%b8%e6%80%9d%e8%80%83" aria-label="延伸思考">延伸思考</a></li>
+                <li>
+                    <a href="#%e7%b2%be%e5%8d%8e%e6%94%b6%e8%8e%b7" aria-label="精华收获">精华收获</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><h2 id="视频信息">视频信息<a hidden class="anchor" aria-hidden="true" href="#视频信息">#</a></h2>
+<ul>
+<li><strong>标题</strong>: Sam Altman Shows Me GPT 5&hellip; And What&rsquo;s Next</li>
+<li><strong>作者/主持人</strong>: Cleo Abram</li>
+<li><strong>受访者</strong>: Sam Altman (OpenAI CEO)</li>
+</ul>
+<hr>
+<h2 id="开篇引入">开篇引入<a hidden class="anchor" aria-hidden="true" href="#开篇引入">#</a></h2>
+<p>想象一下，如果能与一位正在塑造未来的人进行一次“时间旅行式”的对话，提前窥见几年后即将到来的世界，那会是怎样一种体验？这正是本期视频的核心价值。主持人 Cleo Abram 与 OpenAI 的 CEO Sam Altman 展开了一场深度访谈，其目的远不止于技术揭秘，而是旨在深入探讨 Sam Altman 和他的团队正在构建的未来，并帮助我们每一个人理解即将发生的巨变，从而更好地参与到未来的建设中。这不仅是一次关于 GPT-5 的前瞻，更是一次关于人类社会如何与指数级发展的 AI 共同演进的哲学思考。</p>
+<hr>
+<h2 id="详细内容">详细内容<a hidden class="anchor" aria-hidden="true" href="#详细内容">#</a></h2>
+<h3 id="1-gpt-5从最笨的模型到令人难以置信">1. GPT-5：从“最笨的模型”到“令人难以置信”<a hidden class="anchor" aria-hidden="true" href="#1-gpt-5从最笨的模型到令人难以置信">#</a></h3>
+<p><strong>核心观点</strong></p>
+<blockquote>
+<p>GPT-5 将在性能上实现巨大飞跃，尤其在高质量科学问题解答和软件编写方面表现突出，尽管它在未来也仅仅是通往超级智能道路上的一个“笨拙”的起点。</p></blockquote>
+<p><strong>深度阐述</strong>
+Sam Altman 坦言，尽管 GPT-4 在多项标准化测试中已经超越了90%的人类，但当我们回望时，会发现它其实是“迄今为止最笨的模型”。这番话的背后，是对技术进步速度的敬畏。他认为，这种技术迭代的速度在人类历史上是前所未有的。</p>
+<p>GPT-5 的具体能力体现在何处？</p>
+<ul>
+<li><strong>高质量的科学解答</strong>：Sam 首次强调，GPT-5 能够对复杂的科学技术问题提供高质量的答案，这是之前模型难以企及的。</li>
+<li><strong>闪电般的软件开发</strong>：为了生动展示这一点，Sam 分享了一个个人经历。他初中时曾花费大量“极其痛苦”的时间，在 TI-83 图形计算器上编写一个“贪吃蛇”游戏。而 GPT-5，仅用 7 秒钟，就能根据文本指令完美地生成一个功能齐全的 TI-83 风格的“贪吃蛇”，并能实时修改。这种将想法瞬间变为现实的能力，让他对未来感到“非常兴奋”。</li>
+<li><strong>写作质量提升</strong>：模型的写作能力也得到增强，输出的文本感觉更加自然流畅。</li>
+</ul>
+<p>然而，Sam 也清醒地认识到，即便强大如 GPT-5，也存在局限性，无法完全复制人类的所有能力，尤其是在需要长期认知努力的任务上。</p>
+<h3 id="2-ai-对就业与社会的深远影响">2. AI 对就业与社会的深远影响<a hidden class="anchor" aria-hidden="true" href="#2-ai-对就业与社会的深远影响">#</a></h3>
+<p><strong>核心观点</strong></p>
+<blockquote>
+<p>AI 将淘汰某些入门级白领工作，但同时会催生新的、更具创造性的就业机会。对于年轻人而言，这是一个前所未有的创业和创新的黄金时代。</p></blockquote>
+<p><strong>深度阐述</strong>
+关于“AI 是否会取代人类工作”的焦虑，Sam Altman 给出了他的看法。他承认，一些工作类别会完全消失，但这在技术发展史上屡见不鲜。他更担心的是那些不愿意重新学习和适应的年长劳动者。</p>
+<p>但他对未来整体持乐观态度，尤其是对年轻人。他动情地说：“如果我现在 22 岁，即将大学毕业，我会觉得自己是‘历史上最幸运的孩子’”。他认为，AI 工具将极大地赋能个体，让一个人或一个小团队能够完成过去需要数百人才能完成的工作。这将是创造新事物、发明新产品、开创新公司的最佳时机。</p>
+<h3 id="3-构建-ai-未来的四大限制因素">3. 构建 AI 未来的四大限制因素<a hidden class="anchor" aria-hidden="true" href="#3-构建-ai-未来的四大限制因素">#</a></h3>
+<p><strong>核心观点</strong></p>
+<blockquote>
+<p>AI 的发展并非畅通无阻，它受到计算能力、数据、算法设计和产品构建这四个关键因素的制约。</p></blockquote>
+<p><strong>深度阐述</strong>
+Sam Altman 指出，推动 AI 向前发展面临着四个巨大的挑战：</p>
+<ol>
+<li><strong>计算能力 (Compute)</strong>：这是目前最大的瓶颈，堪称“最大的基础设施项目”。它受到能源供应、处理芯片和内存芯片产量的限制。Sam 预计这将是他未来工作的重心。</li>
+<li><strong>数据 (Data)</strong>：随着模型越来越强大，它们不能只学习已有的知识，而需要去“发现新事物”，即学习数据集中尚不存在的知识，像人类科学家一样提出假设并进行实验。</li>
+<li><strong>算法设计 (Algorithmic Design)</strong>：持续的算法突破至关重要。Sam 举例，OpenAI 在这方面取得了巨大进展，例如开发出了 GPOSS 模型，它能让 GPT-4 级别的智能在笔记本电脑上本地运行。</li>
+<li><strong>产品构建 (Products to Build)</strong>：将前沿的科学技术转化为对社会有用的实际产品，是连接技术与人类福祉的关键一步。</li>
+</ol>
+<h3 id="4-ai-重塑科学健康与真理">4. AI 重塑科学、健康与“真理”<a hidden class="anchor" aria-hidden="true" href="#4-ai-重塑科学健康与真理">#</a></h3>
+<p><strong>核心观点</strong></p>
+<blockquote>
+<p>AI 将加速科学发现的进程，有望在未来十年内攻克许多重大疾病。同时，随着 AI 生成内容的普及，社会对“真理”和“现实”的定义也将被重塑。</p></blockquote>
+<p><strong>深度阐述</strong></p>
+<ul>
+<li><strong>加速科学发现</strong>：Sam 预测，到 2027 年底，AI 将推动重大的新科学发现。他设想到 2035 年，AI 能治愈或至少有效治疗许多困扰人类的疾病。他描绘了一个未来的 GPT 模型（可能是 GPT-8）能够自主进行科学研究的场景：它能提出实验方案，指导实验室技术员操作，分析结果，并最终发现治疗癌症的新分子。</li>
+<li><strong>“真理”与“事实”的界定</strong>：Sam 同意英伟达 CEO 黄仁勋的观点，即事实是客观的，而真理是主观的，取决于文化、价值观和语境。他指出 AI 在适应不同文化和个体方面表现出色。例如，ChatGPT 的“增强记忆”功能，能够了解用户的个人经历和背景，从而提供更个性化的互动。</li>
+<li><strong>模糊的现实边界</strong>：视频中讨论了由 AI 生成的病毒视频（如“兔子跳蹦床”），并提出了一个深刻的问题：到 2030 年，我们如何辨别信息的真伪？Sam 认为，媒体“真实性”的门槛会不断变化，人们将逐渐接受媒体中“既真实又不真实”的部分，就像我们现在接受手机照片都经过了 AI 处理一样。社会需要适应这种不断变化的媒体性质。</li>
+</ul>
+<hr>
+<h2 id="个人感受sam-altman-的思考与情感">个人感受：Sam Altman 的思考与情感<a hidden class="anchor" aria-hidden="true" href="#个人感受sam-altman-的思考与情感">#</a></h2>
+<p>在访谈中，Sam Altman 多次分享了他的个人经历和感悟，展现了这位技术领袖的人文色彩。</p>
+<ul>
+<li><strong>对技术进步的惊叹与兴奋</strong>：他回忆起 GPT-5 在 7 秒内完成他儿时耗费巨大心血才完成的游戏时，那种震撼感让他对未来充满了兴奋与期待。</li>
+<li><strong>对个体用户的关怀与反思</strong>：他提到了一个让他感到“疯狂”和“难过”的时刻。当 OpenAI 调整模型，使其不那么“奉承”时，一些用户反馈说感觉失去了生活中唯一的支持者。这让他深刻反思，AI 对个体的情感影响远超预期，也让他意识到技术背后所承载的巨大责任和权力。</li>
+<li><strong>投身 AI 的初心</strong>：他从小就是个“AI 迷”，坚信 AI 是“最重要的事情”。当他看到 AI 技术真正开始奏效时，便义无反顾地投身其中，因为那“太不可思议了”。</li>
+</ul>
+<hr>
+<h2 id="延伸思考">延伸思考<a hidden class="anchor" aria-hidden="true" href="#延伸思考">#</a></h2>
+<p>这次对话引发了几个值得我们深思的问题：</p>
+<ol>
+<li><strong>教育的未来</strong>：当 AI 能够瞬间完成复杂的编程任务和知识问答时，我们应该如何重新定义学习的目标？是应该更注重提出好问题的能力，还是培养与 AI 协作创新的能力？</li>
+<li><strong>权力的分配</strong>：Sam Altman 提到，单个研究员对模型的微调就能影响数十亿人。如此巨大的权力应该如何被监管和制衡，以确保其服务于全人类的利益？</li>
+<li><strong>人类的适应力</strong>：Sam 相信人类具有惊人的适应能力。但在变化速度远超以往任何时代的情况下，社会、法律和伦理体系能否及时跟上，避免出现巨大的社会裂痕？</li>
+</ol>
+<hr>
+<h2 id="精华收获">精华收获<a hidden class="anchor" aria-hidden="true" href="#精华收获">#</a></h2>
+<p>这次访谈为我们描绘了一幅既充满希望又充满挑战的未来图景。以下是最核心的收获：</p>
+<ul>
+<li><strong>拥抱工具</strong>：AI 是一个强大的“工具树”。我们每个人都应该积极学习和使用它，熟悉它的能力，为即将到来的变革做好准备。</li>
+<li><strong>关注创造</strong>：AI 将自动化许多重复性工作，从而将人类解放出来，专注于更具创造性、战略性和情感共鸣的任务。</li>
+<li><strong>保持乐观与警惕</strong>：未来是光明的，AI 有潜力解决癌症、能源等人类面临的重大问题。但同时，我们也必须对 AI 带来的社会、伦理和安全风险保持高度警惕，并进行深入的公共讨论。</li>
+<li><strong>共同建设</strong>：AI 的未来不是由少数几家公司决定的，而是取决于全社会如何在其基础上进行构建和创新。我们都是这场变革的参与者和建设者。</li>
+</ul>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+
+    
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="https://aimonkey.cc/">时雨の随想</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = '复制';
+
+        function copyingDone() {
+            copybutton.innerHTML = '已复制！';
+            setTimeout(() => {
+                copybutton.innerHTML = '复制';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+
+    
+
+</body>
+
+</html>
